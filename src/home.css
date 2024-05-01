@@ -1,0 +1,29 @@
+/* Home.css */
+.home-container {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    margin-left: -600px;
+    margin-top: 425px;
+    top: 0;
+    left: 0;
+    width: 1600px;
+    height: 720px;
+    padding: 50px 35px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    backdrop-filter: blur(5px); /* Blur effect */
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    border-radius: 10px;
+  }
+  
+  .content {
+    position: relative; /* Ensure content appears above overlay */
+    z-index: 1; /* Ensure content is on top of overlay */
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }
+  
